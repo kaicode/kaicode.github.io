@@ -1,0 +1,1634 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0f7287210a459a3bd6e5d016216634b9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0f7287210a459a3bd6e5d016216634b9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0f7287210a459a3bd6e5d016216634b9 = L.map(
+                "map_0f7287210a459a3bd6e5d016216634b9",
+                {
+                    center: [51.5, -0.1],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c5a04c2fb22f49b159be5c3c8fb8a9fb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+            var marker_c0b2b8682c32204c79d4195a779fa809 = L.marker(
+                [51.4876, -0.2158],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_3ecea0b0a38bfbe949532f302f5b36cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_331ee96553fa49277be97d1803cce02c = $(`<div id="html_331ee96553fa49277be97d1803cce02c" style="width: 100.0%; height: 100.0%;">Quintin Head (25th January)</div>`)[0];
+            popup_3ecea0b0a38bfbe949532f302f5b36cf.setContent(html_331ee96553fa49277be97d1803cce02c);
+        
+
+        marker_c0b2b8682c32204c79d4195a779fa809.bindPopup(popup_3ecea0b0a38bfbe949532f302f5b36cf)
+        ;
+
+        
+    
+    
+            marker_c0b2b8682c32204c79d4195a779fa809.bindTooltip(
+                `<div>
+                     Quintin Head
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d50d2e912b2cf453f49fd3f3b803b86e = L.marker(
+                [51.5386, -0.9005],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_c4f07bb0087067e36b1fa680dfeb470e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c11a98c7dce117f7ed6c651e1f3e9ca = $(`<div id="html_1c11a98c7dce117f7ed6c651e1f3e9ca" style="width: 100.0%; height: 100.0%;">Henley 4’s Head (15th February)</div>`)[0];
+            popup_c4f07bb0087067e36b1fa680dfeb470e.setContent(html_1c11a98c7dce117f7ed6c651e1f3e9ca);
+        
+
+        marker_d50d2e912b2cf453f49fd3f3b803b86e.bindPopup(popup_c4f07bb0087067e36b1fa680dfeb470e)
+        ;
+
+        
+    
+    
+            marker_d50d2e912b2cf453f49fd3f3b803b86e.bindTooltip(
+                `<div>
+                     Henley 4’s Head
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91f85f4202620f853c1d654edb2b0c0e = L.marker(
+                [50.7356, -1.7788],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_ccf4525047bce1dbbeeb607192142c3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a31fe7c00f69fbe19e681780c032c953 = $(`<div id="html_a31fe7c00f69fbe19e681780c032c953" style="width: 100.0%; height: 100.0%;">Head of the Stour (16th February)</div>`)[0];
+            popup_ccf4525047bce1dbbeeb607192142c3f.setContent(html_a31fe7c00f69fbe19e681780c032c953);
+        
+
+        marker_91f85f4202620f853c1d654edb2b0c0e.bindPopup(popup_ccf4525047bce1dbbeeb607192142c3f)
+        ;
+
+        
+    
+    
+            marker_91f85f4202620f853c1d654edb2b0c0e.bindTooltip(
+                `<div>
+                     Head of the Stour
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8d0e4ba005c596472c593fec2ce7ddc = L.marker(
+                [50.6435, -1.9532],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_df4c5218c81278b0ef7ae0631a2a6a01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0a19825fdc46224d47db1a4714b0e9f = $(`<div id="html_b0a19825fdc46224d47db1a4714b0e9f" style="width: 100.0%; height: 100.0%;">BS Academy Training J16 (17th-18th February)</div>`)[0];
+            popup_df4c5218c81278b0ef7ae0631a2a6a01.setContent(html_b0a19825fdc46224d47db1a4714b0e9f);
+        
+
+        marker_f8d0e4ba005c596472c593fec2ce7ddc.bindPopup(popup_df4c5218c81278b0ef7ae0631a2a6a01)
+        ;
+
+        
+    
+    
+            marker_f8d0e4ba005c596472c593fec2ce7ddc.bindTooltip(
+                `<div>
+                     BS Academy Training J16
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d5a4730e3dd271886c8edd3ead5e45b = L.marker(
+                [50.6435, -1.9532],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_c286f4f5f71ec38ec0380eb6a968ac37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7fcd134abbb4c8bb4716fcfe2e6625b = $(`<div id="html_b7fcd134abbb4c8bb4716fcfe2e6625b" style="width: 100.0%; height: 100.0%;">BS Academy Training (19th-20th February)</div>`)[0];
+            popup_c286f4f5f71ec38ec0380eb6a968ac37.setContent(html_b7fcd134abbb4c8bb4716fcfe2e6625b);
+        
+
+        marker_9d5a4730e3dd271886c8edd3ead5e45b.bindPopup(popup_c286f4f5f71ec38ec0380eb6a968ac37)
+        ;
+
+        
+    
+    
+            marker_9d5a4730e3dd271886c8edd3ead5e45b.bindTooltip(
+                `<div>
+                     BS Academy Training
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c7c88ee9991ea7e99b61b3357511adc = L.marker(
+                [50.6435, -1.9532],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_56aca5606b239f4d3066251f92bf8245 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea55aa18290dad4c7789c7c8f773f162 = $(`<div id="html_ea55aa18290dad4c7789c7c8f773f162" style="width: 100.0%; height: 100.0%;">Beach Sprints Regatta (22nd February)</div>`)[0];
+            popup_56aca5606b239f4d3066251f92bf8245.setContent(html_ea55aa18290dad4c7789c7c8f773f162);
+        
+
+        marker_5c7c88ee9991ea7e99b61b3357511adc.bindPopup(popup_56aca5606b239f4d3066251f92bf8245)
+        ;
+
+        
+    
+    
+            marker_5c7c88ee9991ea7e99b61b3357511adc.bindTooltip(
+                `<div>
+                     Beach Sprints Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12115d894a5b9f81b9d52447ff9fead7 = L.marker(
+                [51.4876, -0.2158],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_b29d28b545ad91e5c7c70c7f1dc8fe68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_502433f6fb5f64ab3ce057a9f0cea16d = $(`<div id="html_502433f6fb5f64ab3ce057a9f0cea16d" style="width: 100.0%; height: 100.0%;">Hammersmith Head (23rd February)</div>`)[0];
+            popup_b29d28b545ad91e5c7c70c7f1dc8fe68.setContent(html_502433f6fb5f64ab3ce057a9f0cea16d);
+        
+
+        marker_12115d894a5b9f81b9d52447ff9fead7.bindPopup(popup_b29d28b545ad91e5c7c70c7f1dc8fe68)
+        ;
+
+        
+    
+    
+            marker_12115d894a5b9f81b9d52447ff9fead7.bindTooltip(
+                `<div>
+                     Hammersmith Head
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_411461220aafd9623d3a9947e9da41fb = L.marker(
+                [51.4876, -0.2158],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_1a8dc23a93fc227ac85b9d2bb1cc7812 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59ed3c76ae66c64d5ccb46e54a579e31 = $(`<div id="html_59ed3c76ae66c64d5ccb46e54a579e31" style="width: 100.0%; height: 100.0%;">weHORR (8th March)</div>`)[0];
+            popup_1a8dc23a93fc227ac85b9d2bb1cc7812.setContent(html_59ed3c76ae66c64d5ccb46e54a579e31);
+        
+
+        marker_411461220aafd9623d3a9947e9da41fb.bindPopup(popup_1a8dc23a93fc227ac85b9d2bb1cc7812)
+        ;
+
+        
+    
+    
+            marker_411461220aafd9623d3a9947e9da41fb.bindTooltip(
+                `<div>
+                     weHORR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d1d19ae91f22a60ec06b9598ce21442 = L.marker(
+                [50.9097, -1.4044],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_e75f11a1661ca77b499dedbe1896c21f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ae3e7e39daad477d9b8ff8d90e61af0 = $(`<div id="html_8ae3e7e39daad477d9b8ff8d90e61af0" style="width: 100.0%; height: 100.0%;">Southampton Fours Head (15th March)</div>`)[0];
+            popup_e75f11a1661ca77b499dedbe1896c21f.setContent(html_8ae3e7e39daad477d9b8ff8d90e61af0);
+        
+
+        marker_3d1d19ae91f22a60ec06b9598ce21442.bindPopup(popup_e75f11a1661ca77b499dedbe1896c21f)
+        ;
+
+        
+    
+    
+            marker_3d1d19ae91f22a60ec06b9598ce21442.bindTooltip(
+                `<div>
+                     Southampton Fours Head
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af0c8ce85213f24ec8ca6fe89e7bca2f = L.marker(
+                [51.4876, -0.2158],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_084a7664739622c03202adc43bd70cd8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad069c6f62601648ccc3d7728e3be732 = $(`<div id="html_ad069c6f62601648ccc3d7728e3be732" style="width: 100.0%; height: 100.0%;">HORR (22nd March)</div>`)[0];
+            popup_084a7664739622c03202adc43bd70cd8.setContent(html_ad069c6f62601648ccc3d7728e3be732);
+        
+
+        marker_af0c8ce85213f24ec8ca6fe89e7bca2f.bindPopup(popup_084a7664739622c03202adc43bd70cd8)
+        ;
+
+        
+    
+    
+            marker_af0c8ce85213f24ec8ca6fe89e7bca2f.bindTooltip(
+                `<div>
+                     HORR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97afe8984cadaad13ca4eb37b424ad6a = L.marker(
+                [51.4876, -0.2158],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_99bab8e872ce681703db79d558b27186 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4652406df0ca91f119dafea253476fff = $(`<div id="html_4652406df0ca91f119dafea253476fff" style="width: 100.0%; height: 100.0%;">Schools Head (25th March)</div>`)[0];
+            popup_99bab8e872ce681703db79d558b27186.setContent(html_4652406df0ca91f119dafea253476fff);
+        
+
+        marker_97afe8984cadaad13ca4eb37b424ad6a.bindPopup(popup_99bab8e872ce681703db79d558b27186)
+        ;
+
+        
+    
+    
+            marker_97afe8984cadaad13ca4eb37b424ad6a.bindTooltip(
+                `<div>
+                     Schools Head
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50d6ffcda57ed746804f2bf8bd5e1511 = L.marker(
+                [50.9097, -1.4044],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_417586248f42c5bdd49acff0ad91f801 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a16e33b2365f31fcc30e656a5d49c729 = $(`<div id="html_a16e33b2365f31fcc30e656a5d49c729" style="width: 100.0%; height: 100.0%;">BTC Spring Head (29th March)</div>`)[0];
+            popup_417586248f42c5bdd49acff0ad91f801.setContent(html_a16e33b2365f31fcc30e656a5d49c729);
+        
+
+        marker_50d6ffcda57ed746804f2bf8bd5e1511.bindPopup(popup_417586248f42c5bdd49acff0ad91f801)
+        ;
+
+        
+    
+    
+            marker_50d6ffcda57ed746804f2bf8bd5e1511.bindTooltip(
+                `<div>
+                     BTC Spring Head
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e647b4502110812416929d7226354df = L.marker(
+                [50.3755, -4.1427],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_c41961ccd733cd4ac226d851c2299f38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5893ee9dcd4fc7c4a8c689f637972f57 = $(`<div id="html_5893ee9dcd4fc7c4a8c689f637972f57" style="width: 100.0%; height: 100.0%;">Mayflower #1 (5th April)</div>`)[0];
+            popup_c41961ccd733cd4ac226d851c2299f38.setContent(html_5893ee9dcd4fc7c4a8c689f637972f57);
+        
+
+        marker_3e647b4502110812416929d7226354df.bindPopup(popup_c41961ccd733cd4ac226d851c2299f38)
+        ;
+
+        
+    
+    
+            marker_3e647b4502110812416929d7226354df.bindTooltip(
+                `<div>
+                     Mayflower #1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9253fae34bd3b5f9b21015cd5691a350 = L.marker(
+                [50.7192, -1.8808],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_08ed7bdaf6827fb536a9087172ec4209 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6442f300a6e6663b173e4b37ea8043a5 = $(`<div id="html_6442f300a6e6663b173e4b37ea8043a5" style="width: 100.0%; height: 100.0%;">Training J16 (8th-9th April)</div>`)[0];
+            popup_08ed7bdaf6827fb536a9087172ec4209.setContent(html_6442f300a6e6663b173e4b37ea8043a5);
+        
+
+        marker_9253fae34bd3b5f9b21015cd5691a350.bindPopup(popup_08ed7bdaf6827fb536a9087172ec4209)
+        ;
+
+        
+    
+    
+            marker_9253fae34bd3b5f9b21015cd5691a350.bindTooltip(
+                `<div>
+                     Training J16
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e476ec1112cb3a5f3b60e0eb6454a51f = L.marker(
+                [50.7192, -1.8808],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_b8e7312825314429a128bf01c6a5a57d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_822a6fb543a6c4dfd95491c0d0851c1c = $(`<div id="html_822a6fb543a6c4dfd95491c0d0851c1c" style="width: 100.0%; height: 100.0%;">Training Academy (10th-12th April)</div>`)[0];
+            popup_b8e7312825314429a128bf01c6a5a57d.setContent(html_822a6fb543a6c4dfd95491c0d0851c1c);
+        
+
+        marker_e476ec1112cb3a5f3b60e0eb6454a51f.bindPopup(popup_b8e7312825314429a128bf01c6a5a57d)
+        ;
+
+        
+    
+    
+            marker_e476ec1112cb3a5f3b60e0eb6454a51f.bindTooltip(
+                `<div>
+                     Training Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8c6635b0adbb57bbcd18fc4a8dca1f3 = L.marker(
+                [50.6174, -3.4066],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_53283e4a52a37dce6bdb219e80c9e5a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_149059c71f96fafc2be96d1af5284c56 = $(`<div id="html_149059c71f96fafc2be96d1af5284c56" style="width: 100.0%; height: 100.0%;">Exmouth #1 (19th April)</div>`)[0];
+            popup_53283e4a52a37dce6bdb219e80c9e5a4.setContent(html_149059c71f96fafc2be96d1af5284c56);
+        
+
+        marker_a8c6635b0adbb57bbcd18fc4a8dca1f3.bindPopup(popup_53283e4a52a37dce6bdb219e80c9e5a4)
+        ;
+
+        
+    
+    
+            marker_a8c6635b0adbb57bbcd18fc4a8dca1f3.bindTooltip(
+                `<div>
+                     Exmouth #1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5b23ca56dc340f7d34e18ccc5edcde1 = L.marker(
+                [50.7156, -3.5309],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_ed62c313a90367330aedf83ee949b2de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55e8d4c6c0b0fd2e70038331f565b82b = $(`<div id="html_55e8d4c6c0b0fd2e70038331f565b82b" style="width: 100.0%; height: 100.0%;">Wimbleball Camp (13th-19th April)</div>`)[0];
+            popup_ed62c313a90367330aedf83ee949b2de.setContent(html_55e8d4c6c0b0fd2e70038331f565b82b);
+        
+
+        marker_e5b23ca56dc340f7d34e18ccc5edcde1.bindPopup(popup_ed62c313a90367330aedf83ee949b2de)
+        ;
+
+        
+    
+    
+            marker_e5b23ca56dc340f7d34e18ccc5edcde1.bindTooltip(
+                `<div>
+                     Wimbleball Camp
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ba300b288d574673e0c8c7a931972bb = L.marker(
+                [52.9548, -1.1581],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_308ef9a34e1aafb97af48bb4741b132d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3666308b06374e6d5e3d084e63bacd60 = $(`<div id="html_3666308b06374e6d5e3d084e63bacd60" style="width: 100.0%; height: 100.0%;">JIRR (26th April)</div>`)[0];
+            popup_308ef9a34e1aafb97af48bb4741b132d.setContent(html_3666308b06374e6d5e3d084e63bacd60);
+        
+
+        marker_5ba300b288d574673e0c8c7a931972bb.bindPopup(popup_308ef9a34e1aafb97af48bb4741b132d)
+        ;
+
+        
+    
+    
+            marker_5ba300b288d574673e0c8c7a931972bb.bindTooltip(
+                `<div>
+                     JIRR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6284127a0b616a1a6ef2ca36c7858010 = L.marker(
+                [50.1519, -5.0659],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_378b12b278ac9a4b84a8cc70c8ab3302 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48912d705a3b3c809eea0d712883822b = $(`<div id="html_48912d705a3b3c809eea0d712883822b" style="width: 100.0%; height: 100.0%;">Carrick Crusade (3rd May)</div>`)[0];
+            popup_378b12b278ac9a4b84a8cc70c8ab3302.setContent(html_48912d705a3b3c809eea0d712883822b);
+        
+
+        marker_6284127a0b616a1a6ef2ca36c7858010.bindPopup(popup_378b12b278ac9a4b84a8cc70c8ab3302)
+        ;
+
+        
+    
+    
+            marker_6284127a0b616a1a6ef2ca36c7858010.bindTooltip(
+                `<div>
+                     Carrick Crusade
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab197f9678081b6990ac3bf613ec440e = L.marker(
+                [51.5097, -0.6551],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_fcb4b9bd797d0bba71c7ae6e47ff656a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb081592a2c3cf1b45f972509b0d2584 = $(`<div id="html_cb081592a2c3cf1b45f972509b0d2584" style="width: 100.0%; height: 100.0%;">Junior Scullers Regatta (5th May)</div>`)[0];
+            popup_fcb4b9bd797d0bba71c7ae6e47ff656a.setContent(html_cb081592a2c3cf1b45f972509b0d2584);
+        
+
+        marker_ab197f9678081b6990ac3bf613ec440e.bindPopup(popup_fcb4b9bd797d0bba71c7ae6e47ff656a)
+        ;
+
+        
+    
+    
+            marker_ab197f9678081b6990ac3bf613ec440e.bindTooltip(
+                `<div>
+                     Junior Scullers Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ebf62be6012a9ac44b2922a1c06f5b2 = L.marker(
+                [55.2035, -6.5232],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_b643f038530a2c02885537c5742e2829 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3f784702d2912375562a85af36f0415 = $(`<div id="html_d3f784702d2912375562a85af36f0415" style="width: 100.0%; height: 100.0%;">Olderfleet (10th May)</div>`)[0];
+            popup_b643f038530a2c02885537c5742e2829.setContent(html_d3f784702d2912375562a85af36f0415);
+        
+
+        marker_7ebf62be6012a9ac44b2922a1c06f5b2.bindPopup(popup_b643f038530a2c02885537c5742e2829)
+        ;
+
+        
+    
+    
+            marker_7ebf62be6012a9ac44b2922a1c06f5b2.bindTooltip(
+                `<div>
+                     Olderfleet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2be050fee8bca169fe98189f00236257 = L.marker(
+                [50.6938, -1.3047],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_d80703abdc8a90441dfb6c6eb4ef6e94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4105eb3dd27a52de5db4c6fa833c90f4 = $(`<div id="html_4105eb3dd27a52de5db4c6fa833c90f4" style="width: 100.0%; height: 100.0%;">Shanklin Regatta (10th May)</div>`)[0];
+            popup_d80703abdc8a90441dfb6c6eb4ef6e94.setContent(html_4105eb3dd27a52de5db4c6fa833c90f4);
+        
+
+        marker_2be050fee8bca169fe98189f00236257.bindPopup(popup_d80703abdc8a90441dfb6c6eb4ef6e94)
+        ;
+
+        
+    
+    
+            marker_2be050fee8bca169fe98189f00236257.bindTooltip(
+                `<div>
+                     Shanklin Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_493f37d6e2722bbcc68b5690376ee3d9 = L.marker(
+                [50.6938, -1.3047],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_34800773170737e964d37b408b817ebf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc3659ebc4159e35a63593adcd897ae9 = $(`<div id="html_cc3659ebc4159e35a63593adcd897ae9" style="width: 100.0%; height: 100.0%;">Ryde Regatta (11th May)</div>`)[0];
+            popup_34800773170737e964d37b408b817ebf.setContent(html_cc3659ebc4159e35a63593adcd897ae9);
+        
+
+        marker_493f37d6e2722bbcc68b5690376ee3d9.bindPopup(popup_34800773170737e964d37b408b817ebf)
+        ;
+
+        
+    
+    
+            marker_493f37d6e2722bbcc68b5690376ee3d9.bindTooltip(
+                `<div>
+                     Ryde Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dfd1c24a4bb60952b4a26b529eb2e3f6 = L.marker(
+                [51.5097, -0.6551],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_e6e3aabb4bb5fb2707bb1d762883ff9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03c5537969c97f82f127c5ec3202cf3e = $(`<div id="html_03c5537969c97f82f127c5ec3202cf3e" style="width: 100.0%; height: 100.0%;">Ball Cup (11th May)</div>`)[0];
+            popup_e6e3aabb4bb5fb2707bb1d762883ff9b.setContent(html_03c5537969c97f82f127c5ec3202cf3e);
+        
+
+        marker_dfd1c24a4bb60952b4a26b529eb2e3f6.bindPopup(popup_e6e3aabb4bb5fb2707bb1d762883ff9b)
+        ;
+
+        
+    
+    
+            marker_dfd1c24a4bb60952b4a26b529eb2e3f6.bindTooltip(
+                `<div>
+                     Ball Cup
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1104f81ab408f70d114653f3297933e7 = L.marker(
+                [50.7158, -2.0085],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_6ff6f9add14ae19614c494b273494bdc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4377cded5edd0a76ab102f5c6ee38cc = $(`<div id="html_d4377cded5edd0a76ab102f5c6ee38cc" style="width: 100.0%; height: 100.0%;">Poole Regatta (17th May)</div>`)[0];
+            popup_6ff6f9add14ae19614c494b273494bdc.setContent(html_d4377cded5edd0a76ab102f5c6ee38cc);
+        
+
+        marker_1104f81ab408f70d114653f3297933e7.bindPopup(popup_6ff6f9add14ae19614c494b273494bdc)
+        ;
+
+        
+    
+    
+            marker_1104f81ab408f70d114653f3297933e7.bindTooltip(
+                `<div>
+                     Poole Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60012a56c82cad129d0cf5340d7a2cf7 = L.marker(
+                [50.6092, -1.9592],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_cddcb704b3b42dcc91ea3d89848f4340 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17ac587938613841048e55c374b965d8 = $(`<div id="html_17ac587938613841048e55c374b965d8" style="width: 100.0%; height: 100.0%;">Coastal Barbarians (17th May)</div>`)[0];
+            popup_cddcb704b3b42dcc91ea3d89848f4340.setContent(html_17ac587938613841048e55c374b965d8);
+        
+
+        marker_60012a56c82cad129d0cf5340d7a2cf7.bindPopup(popup_cddcb704b3b42dcc91ea3d89848f4340)
+        ;
+
+        
+    
+    
+            marker_60012a56c82cad129d0cf5340d7a2cf7.bindTooltip(
+                `<div>
+                     Coastal Barbarians
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2a25aeb1639f53ee73f352d5b4592f8 = L.marker(
+                [50.7192, -1.8808],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_d95b32006d2f0fd6ae70e4bd9edc58f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85a4ee779ab3e7a363a8226582e47d31 = $(`<div id="html_85a4ee779ab3e7a363a8226582e47d31" style="width: 100.0%; height: 100.0%;">English Beach Sprints (17th-18th May)</div>`)[0];
+            popup_d95b32006d2f0fd6ae70e4bd9edc58f7.setContent(html_85a4ee779ab3e7a363a8226582e47d31);
+        
+
+        marker_e2a25aeb1639f53ee73f352d5b4592f8.bindPopup(popup_d95b32006d2f0fd6ae70e4bd9edc58f7)
+        ;
+
+        
+    
+    
+            marker_e2a25aeb1639f53ee73f352d5b4592f8.bindTooltip(
+                `<div>
+                     English Beach Sprints
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45eb6e93dd361ecc9a515b48d18737bd = L.marker(
+                [51.5097, -0.6551],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_84c5d15be1a6a3b830e408b66773671f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d56e1c870f8b4b68337015dd5fad2777 = $(`<div id="html_d56e1c870f8b4b68337015dd5fad2777" style="width: 100.0%; height: 100.0%;">National Schools Regatta (23rd-25th May)</div>`)[0];
+            popup_84c5d15be1a6a3b830e408b66773671f.setContent(html_d56e1c870f8b4b68337015dd5fad2777);
+        
+
+        marker_45eb6e93dd361ecc9a515b48d18737bd.bindPopup(popup_84c5d15be1a6a3b830e408b66773671f)
+        ;
+
+        
+    
+    
+            marker_45eb6e93dd361ecc9a515b48d18737bd.bindTooltip(
+                `<div>
+                     National Schools Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fd9cb902823ccff2d4a655291753ce8 = L.marker(
+                [50.7231, -1.5871],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_b2c993db86941a6d67c7245b9cb9aaae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14e898003a155541b7d77a702dd95797 = $(`<div id="html_14e898003a155541b7d77a702dd95797" style="width: 100.0%; height: 100.0%;">Lymington/Milford Regatta (31st May)</div>`)[0];
+            popup_b2c993db86941a6d67c7245b9cb9aaae.setContent(html_14e898003a155541b7d77a702dd95797);
+        
+
+        marker_3fd9cb902823ccff2d4a655291753ce8.bindPopup(popup_b2c993db86941a6d67c7245b9cb9aaae)
+        ;
+
+        
+    
+    
+            marker_3fd9cb902823ccff2d4a655291753ce8.bindTooltip(
+                `<div>
+                     Lymington/Milford Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97617825ca01150dee8525571d2b0bf6 = L.marker(
+                [50.7356, -1.7788],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_4c29c2ebcc2690eb0a35192d7ea525ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2111b4038556b6dfeb335cf3a059e635 = $(`<div id="html_2111b4038556b6dfeb335cf3a059e635" style="width: 100.0%; height: 100.0%;">Christchurch Regatta (7th June)</div>`)[0];
+            popup_4c29c2ebcc2690eb0a35192d7ea525ce.setContent(html_2111b4038556b6dfeb335cf3a059e635);
+        
+
+        marker_97617825ca01150dee8525571d2b0bf6.bindPopup(popup_4c29c2ebcc2690eb0a35192d7ea525ce)
+        ;
+
+        
+    
+    
+            marker_97617825ca01150dee8525571d2b0bf6.bindTooltip(
+                `<div>
+                     Christchurch Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d13ab259cd805e600f1f1c26df3af69 = L.marker(
+                [50.768, 0.2905],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_93120e8010a004d3a0105fabd419d0de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a15cbb13b594de4c4814e534fd456fa4 = $(`<div id="html_a15cbb13b594de4c4814e534fd456fa4" style="width: 100.0%; height: 100.0%;">Eastbourne (7th June)</div>`)[0];
+            popup_93120e8010a004d3a0105fabd419d0de.setContent(html_a15cbb13b594de4c4814e534fd456fa4);
+        
+
+        marker_7d13ab259cd805e600f1f1c26df3af69.bindPopup(popup_93120e8010a004d3a0105fabd419d0de)
+        ;
+
+        
+    
+    
+            marker_7d13ab259cd805e600f1f1c26df3af69.bindTooltip(
+                `<div>
+                     Eastbourne
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0d3e90dc04304f22a082a5c41839897 = L.marker(
+                [52.9548, -1.1581],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_2e59cff0b7e6c5e2b40ca4ee6e73e34b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27df6cdfe296d821505ea7cf5af66204 = $(`<div id="html_27df6cdfe296d821505ea7cf5af66204" style="width: 100.0%; height: 100.0%;">British Masters Championships (14th-15th June)</div>`)[0];
+            popup_2e59cff0b7e6c5e2b40ca4ee6e73e34b.setContent(html_27df6cdfe296d821505ea7cf5af66204);
+        
+
+        marker_c0d3e90dc04304f22a082a5c41839897.bindPopup(popup_2e59cff0b7e6c5e2b40ca4ee6e73e34b)
+        ;
+
+        
+    
+    
+            marker_c0d3e90dc04304f22a082a5c41839897.bindTooltip(
+                `<div>
+                     British Masters Championships
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d25831558e0d8fc1809547835786ba83 = L.marker(
+                [50.9097, -1.4044],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_7ace8adc38053e1b53789464f7f28b81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb6077df590084520d8d17bf5988ff87 = $(`<div id="html_eb6077df590084520d8d17bf5988ff87" style="width: 100.0%; height: 100.0%;">Woolston Regatta (14th June)</div>`)[0];
+            popup_7ace8adc38053e1b53789464f7f28b81.setContent(html_eb6077df590084520d8d17bf5988ff87);
+        
+
+        marker_d25831558e0d8fc1809547835786ba83.bindPopup(popup_7ace8adc38053e1b53789464f7f28b81)
+        ;
+
+        
+    
+    
+            marker_d25831558e0d8fc1809547835786ba83.bindTooltip(
+                `<div>
+                     Woolston Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86bc9d2da041b305eb9fe8b033daf76a = L.marker(
+                [51.5386, -0.9005],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_712352db3dd5062b7e4b39cccde590f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a35b0ecea7682b7c79c51cc9cce3290 = $(`<div id="html_7a35b0ecea7682b7c79c51cc9cce3290" style="width: 100.0%; height: 100.0%;">Henley Women Regatta (20th-22nd June)</div>`)[0];
+            popup_712352db3dd5062b7e4b39cccde590f3.setContent(html_7a35b0ecea7682b7c79c51cc9cce3290);
+        
+
+        marker_86bc9d2da041b305eb9fe8b033daf76a.bindPopup(popup_712352db3dd5062b7e4b39cccde590f3)
+        ;
+
+        
+    
+    
+            marker_86bc9d2da041b305eb9fe8b033daf76a.bindTooltip(
+                `<div>
+                     Henley Women Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e6e639bc8c6128541ee548abbc15b9f9 = L.marker(
+                [51.5386, -0.9005],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_a407e01728e27c4bc69adf94b9666544 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84423f9d62bcbe69a2f76743b292f353 = $(`<div id="html_84423f9d62bcbe69a2f76743b292f353" style="width: 100.0%; height: 100.0%;">Henley Qualifiers (27th June)</div>`)[0];
+            popup_a407e01728e27c4bc69adf94b9666544.setContent(html_84423f9d62bcbe69a2f76743b292f353);
+        
+
+        marker_e6e639bc8c6128541ee548abbc15b9f9.bindPopup(popup_a407e01728e27c4bc69adf94b9666544)
+        ;
+
+        
+    
+    
+            marker_e6e639bc8c6128541ee548abbc15b9f9.bindTooltip(
+                `<div>
+                     Henley Qualifiers
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_999b8141d7cd085e797803879e9763ca = L.marker(
+                [50.785, -1.0778],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_23430335592690cc89424785d0407eb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21be49714f6b4c31c2e46c634f9c0566 = $(`<div id="html_21be49714f6b4c31c2e46c634f9c0566" style="width: 100.0%; height: 100.0%;">Southsea Regatta (28th June)</div>`)[0];
+            popup_23430335592690cc89424785d0407eb0.setContent(html_21be49714f6b4c31c2e46c634f9c0566);
+        
+
+        marker_999b8141d7cd085e797803879e9763ca.bindPopup(popup_23430335592690cc89424785d0407eb0)
+        ;
+
+        
+    
+    
+            marker_999b8141d7cd085e797803879e9763ca.bindTooltip(
+                `<div>
+                     Southsea Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f3231ced62b0fdbd183edf4b1f2ef85 = L.marker(
+                [51.5386, -0.9005],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_021d355ef6e1a4a23a4b1958beea2acd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_840d317113338eebaf9fb438d2ad366a = $(`<div id="html_840d317113338eebaf9fb438d2ad366a" style="width: 100.0%; height: 100.0%;">Henley Royal Regatta (1st-6th July)</div>`)[0];
+            popup_021d355ef6e1a4a23a4b1958beea2acd.setContent(html_840d317113338eebaf9fb438d2ad366a);
+        
+
+        marker_9f3231ced62b0fdbd183edf4b1f2ef85.bindPopup(popup_021d355ef6e1a4a23a4b1958beea2acd)
+        ;
+
+        
+    
+    
+            marker_9f3231ced62b0fdbd183edf4b1f2ef85.bindTooltip(
+                `<div>
+                     Henley Royal Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d96daf44a612e8edbe34d6c1f501afa7 = L.marker(
+                [52.5439, -4.0437],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_dd1ebc5a57c6487b37859193c85733c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b8cc662c9a44116e644fa12ba220152 = $(`<div id="html_8b8cc662c9a44116e644fa12ba220152" style="width: 100.0%; height: 100.0%;">Offshore Welsh Champs (5th July)</div>`)[0];
+            popup_dd1ebc5a57c6487b37859193c85733c6.setContent(html_8b8cc662c9a44116e644fa12ba220152);
+        
+
+        marker_d96daf44a612e8edbe34d6c1f501afa7.bindPopup(popup_dd1ebc5a57c6487b37859193c85733c6)
+        ;
+
+        
+    
+    
+            marker_d96daf44a612e8edbe34d6c1f501afa7.bindTooltip(
+                `<div>
+                     Offshore Welsh Champs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6106c36ac8bb8d1563bf134814b9a791 = L.marker(
+                [50.6092, -1.9592],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_8c53049f41a71ead0649a036a90b56e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88bf3ee34cdb026d09409557ef2a8f6b = $(`<div id="html_88bf3ee34cdb026d09409557ef2a8f6b" style="width: 100.0%; height: 100.0%;">Swanage Regatta (5th July)</div>`)[0];
+            popup_8c53049f41a71ead0649a036a90b56e0.setContent(html_88bf3ee34cdb026d09409557ef2a8f6b);
+        
+
+        marker_6106c36ac8bb8d1563bf134814b9a791.bindPopup(popup_8c53049f41a71ead0649a036a90b56e0)
+        ;
+
+        
+    
+    
+            marker_6106c36ac8bb8d1563bf134814b9a791.bindTooltip(
+                `<div>
+                     Swanage Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c487ae6d8bc488412fc08825465badf = L.marker(
+                [49.2144, -2.1313],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_525d2c985811fc6108d9f26989de42f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b338dededb0267778525c52c8d27f5d = $(`<div id="html_6b338dededb0267778525c52c8d27f5d" style="width: 100.0%; height: 100.0%;">Jersey Beach Sprints (5th July)</div>`)[0];
+            popup_525d2c985811fc6108d9f26989de42f1.setContent(html_6b338dededb0267778525c52c8d27f5d);
+        
+
+        marker_8c487ae6d8bc488412fc08825465badf.bindPopup(popup_525d2c985811fc6108d9f26989de42f1)
+        ;
+
+        
+    
+    
+            marker_8c487ae6d8bc488412fc08825465badf.bindTooltip(
+                `<div>
+                     Jersey Beach Sprints
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0d88ba9fff354f340bfd8f4a38eecc4 = L.marker(
+                [51.5386, -0.9005],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_1023918613ca2c587c320a4ef1a12a55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f89ec06eef30c66bb9e5030c90013ed = $(`<div id="html_6f89ec06eef30c66bb9e5030c90013ed" style="width: 100.0%; height: 100.0%;">Henley Masters (11th-12th July)</div>`)[0];
+            popup_1023918613ca2c587c320a4ef1a12a55.setContent(html_6f89ec06eef30c66bb9e5030c90013ed);
+        
+
+        marker_b0d88ba9fff354f340bfd8f4a38eecc4.bindPopup(popup_1023918613ca2c587c320a4ef1a12a55)
+        ;
+
+        
+    
+    
+            marker_b0d88ba9fff354f340bfd8f4a38eecc4.bindTooltip(
+                `<div>
+                     Henley Masters
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f2b8da119e8856357b59d4781bd3a5c = L.marker(
+                [50.9097, -1.4044],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_bf43569fb060f89f96967ce83a7ddda8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9e7bc29cf60f013e322387f021512fc = $(`<div id="html_c9e7bc29cf60f013e322387f021512fc" style="width: 100.0%; height: 100.0%;">BTC Regatta (12th July)</div>`)[0];
+            popup_bf43569fb060f89f96967ce83a7ddda8.setContent(html_c9e7bc29cf60f013e322387f021512fc);
+        
+
+        marker_7f2b8da119e8856357b59d4781bd3a5c.bindPopup(popup_bf43569fb060f89f96967ce83a7ddda8)
+        ;
+
+        
+    
+    
+            marker_7f2b8da119e8856357b59d4781bd3a5c.bindTooltip(
+                `<div>
+                     BTC Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f28aa4ec117fe93e7facc2d468c76ff = L.marker(
+                [52.9548, -1.1581],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_817c1e4ff9fd71098f6a7a3f7a75e5d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff2a6e71791b62b746ed1d52559fd642 = $(`<div id="html_ff2a6e71791b62b746ed1d52559fd642" style="width: 100.0%; height: 100.0%;">BR Junior and Senior Championships (18th-21st July)</div>`)[0];
+            popup_817c1e4ff9fd71098f6a7a3f7a75e5d6.setContent(html_ff2a6e71791b62b746ed1d52559fd642);
+        
+
+        marker_9f28aa4ec117fe93e7facc2d468c76ff.bindPopup(popup_817c1e4ff9fd71098f6a7a3f7a75e5d6)
+        ;
+
+        
+    
+    
+            marker_9f28aa4ec117fe93e7facc2d468c76ff.bindTooltip(
+                `<div>
+                     BR Junior and Senior Championships
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7cb185998c3ac450f3ef8cfa7a814242 = L.marker(
+                [50.9097, -1.4044],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_f4e83c90199fe3f304a4ff12f1ae5736 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d054a98d3506521cc24a1b30a383f45 = $(`<div id="html_9d054a98d3506521cc24a1b30a383f45" style="width: 100.0%; height: 100.0%;">Coalporters Regatta (19th July)</div>`)[0];
+            popup_f4e83c90199fe3f304a4ff12f1ae5736.setContent(html_9d054a98d3506521cc24a1b30a383f45);
+        
+
+        marker_7cb185998c3ac450f3ef8cfa7a814242.bindPopup(popup_f4e83c90199fe3f304a4ff12f1ae5736)
+        ;
+
+        
+    
+    
+            marker_7cb185998c3ac450f3ef8cfa7a814242.bindTooltip(
+                `<div>
+                     Coalporters Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd2bc3e3f3cc39ebe6db0dc7c53f07c2 = L.marker(
+                [50.9097, -1.4044],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_15d3340df63fa33dca619e1c249f8e6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98d4ab08c4a40d5d03b31287d47d163e = $(`<div id="html_98d4ab08c4a40d5d03b31287d47d163e" style="width: 100.0%; height: 100.0%;">Itchen Regatta (2nd August)</div>`)[0];
+            popup_15d3340df63fa33dca619e1c249f8e6f.setContent(html_98d4ab08c4a40d5d03b31287d47d163e);
+        
+
+        marker_dd2bc3e3f3cc39ebe6db0dc7c53f07c2.bindPopup(popup_15d3340df63fa33dca619e1c249f8e6f)
+        ;
+
+        
+    
+    
+            marker_dd2bc3e3f3cc39ebe6db0dc7c53f07c2.bindTooltip(
+                `<div>
+                     Itchen Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_597754afb7362ca9b0d194a53b623b8f = L.marker(
+                [50.7015, -1.2887],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_a774d4f5c0bc9ea45f7977266f5cdcda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1446807cd638bb4dd24f3fbb10b7abcc = $(`<div id="html_1446807cd638bb4dd24f3fbb10b7abcc" style="width: 100.0%; height: 100.0%;">Newport 4’s Regatta (9th August)</div>`)[0];
+            popup_a774d4f5c0bc9ea45f7977266f5cdcda.setContent(html_1446807cd638bb4dd24f3fbb10b7abcc);
+        
+
+        marker_597754afb7362ca9b0d194a53b623b8f.bindPopup(popup_a774d4f5c0bc9ea45f7977266f5cdcda)
+        ;
+
+        
+    
+    
+            marker_597754afb7362ca9b0d194a53b623b8f.bindTooltip(
+                `<div>
+                     Newport 4’s Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc2ba81e2779ace569196c61746d3d0e = L.marker(
+                [50.7015, -1.2887],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_d3b059936b60e1a78e8310ea9b4e8fe1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15bab605c398c33a670c6313799d9b48 = $(`<div id="html_15bab605c398c33a670c6313799d9b48" style="width: 100.0%; height: 100.0%;">Newport Small Boats Regatta (10th August)</div>`)[0];
+            popup_d3b059936b60e1a78e8310ea9b4e8fe1.setContent(html_15bab605c398c33a670c6313799d9b48);
+        
+
+        marker_bc2ba81e2779ace569196c61746d3d0e.bindPopup(popup_d3b059936b60e1a78e8310ea9b4e8fe1)
+        ;
+
+        
+    
+    
+            marker_bc2ba81e2779ace569196c61746d3d0e.bindTooltip(
+                `<div>
+                     Newport Small Boats Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e680547ce8173cc3b8463e97f3db812c = L.marker(
+                [50.9097, -1.4044],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_a4ceba8898ffd46310f042004316501e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ffbfe3dd46b41ebf4b4fed0068bf7ac = $(`<div id="html_9ffbfe3dd46b41ebf4b4fed0068bf7ac" style="width: 100.0%; height: 100.0%;">Coalporters Junior Regatta (16th August)</div>`)[0];
+            popup_a4ceba8898ffd46310f042004316501e.setContent(html_9ffbfe3dd46b41ebf4b4fed0068bf7ac);
+        
+
+        marker_e680547ce8173cc3b8463e97f3db812c.bindPopup(popup_a4ceba8898ffd46310f042004316501e)
+        ;
+
+        
+    
+    
+            marker_e680547ce8173cc3b8463e97f3db812c.bindTooltip(
+                `<div>
+                     Coalporters Junior Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e410333055530051d21ec6f4bfc118b9 = L.marker(
+                [50.3512, -3.578],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_4b774f390abc073a40adec3b262c5dbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f008acc65fa8f11aa7feff2af4e8b6fc = $(`<div id="html_f008acc65fa8f11aa7feff2af4e8b6fc" style="width: 100.0%; height: 100.0%;">Dartmouth Royal Regatta (30th August)</div>`)[0];
+            popup_4b774f390abc073a40adec3b262c5dbc.setContent(html_f008acc65fa8f11aa7feff2af4e8b6fc);
+        
+
+        marker_e410333055530051d21ec6f4bfc118b9.bindPopup(popup_4b774f390abc073a40adec3b262c5dbc)
+        ;
+
+        
+    
+    
+            marker_e410333055530051d21ec6f4bfc118b9.bindTooltip(
+                `<div>
+                     Dartmouth Royal Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e00f3c059154b6214c9928c98ad29cd = L.marker(
+                [50.3755, -4.1427],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_bec83eb5d94360bdab71d1828a70e191 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b669192d71c84b3862a03de19beef4c = $(`<div id="html_3b669192d71c84b3862a03de19beef4c" style="width: 100.0%; height: 100.0%;">South Coast Junior Regatta (5th September)</div>`)[0];
+            popup_bec83eb5d94360bdab71d1828a70e191.setContent(html_3b669192d71c84b3862a03de19beef4c);
+        
+
+        marker_9e00f3c059154b6214c9928c98ad29cd.bindPopup(popup_bec83eb5d94360bdab71d1828a70e191)
+        ;
+
+        
+    
+    
+            marker_9e00f3c059154b6214c9928c98ad29cd.bindTooltip(
+                `<div>
+                     South Coast Junior Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5058e17f542255a69294bbc05a32518 = L.marker(
+                [50.3755, -4.1427],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_b2dc6e96860e2be9044a0a9b08cd0c4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a746a95f38b7b3540458959bd2074d6 = $(`<div id="html_4a746a95f38b7b3540458959bd2074d6" style="width: 100.0%; height: 100.0%;">South Coast Regatta (6th September)</div>`)[0];
+            popup_b2dc6e96860e2be9044a0a9b08cd0c4f.setContent(html_4a746a95f38b7b3540458959bd2074d6);
+        
+
+        marker_d5058e17f542255a69294bbc05a32518.bindPopup(popup_b2dc6e96860e2be9044a0a9b08cd0c4f)
+        ;
+
+        
+    
+    
+            marker_d5058e17f542255a69294bbc05a32518.bindTooltip(
+                `<div>
+                     South Coast Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c787911dde4e4953b27d3acc51d92ea6 = L.marker(
+                [57.3229, -4.4244],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_348847093b4d205808aaab48614e2268 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d7c268af7d5eefd8f6e5c968b4733ed = $(`<div id="html_5d7c268af7d5eefd8f6e5c968b4733ed" style="width: 100.0%; height: 100.0%;">Monster the Loch (6th September)</div>`)[0];
+            popup_348847093b4d205808aaab48614e2268.setContent(html_5d7c268af7d5eefd8f6e5c968b4733ed);
+        
+
+        marker_c787911dde4e4953b27d3acc51d92ea6.bindPopup(popup_348847093b4d205808aaab48614e2268)
+        ;
+
+        
+    
+    
+            marker_c787911dde4e4953b27d3acc51d92ea6.bindTooltip(
+                `<div>
+                     Monster the Loch
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_047115e07d2dccb841a91d48f0f489ff = L.marker(
+                [42.1201, 2.7605],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_be99ea31d92ef0098d3313907afb6869 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d547addcb791ef9904c06c1f649e6ed5 = $(`<div id="html_d547addcb791ef9904c06c1f649e6ed5" style="width: 100.0%; height: 100.0%;">World Masters Regatta (10th-14th September)</div>`)[0];
+            popup_be99ea31d92ef0098d3313907afb6869.setContent(html_d547addcb791ef9904c06c1f649e6ed5);
+        
+
+        marker_047115e07d2dccb841a91d48f0f489ff.bindPopup(popup_be99ea31d92ef0098d3313907afb6869)
+        ;
+
+        
+    
+    
+            marker_047115e07d2dccb841a91d48f0f489ff.bindTooltip(
+                `<div>
+                     World Masters Regatta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3cbfbd469da319d75e7b7fbfee3c16e = L.marker(
+                [50.5487, -3.4967],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_af51f2273c97afccb148258ca551a332 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9ccca2d95ea86354b541dc3bf980a7e = $(`<div id="html_d9ccca2d95ea86354b541dc3bf980a7e" style="width: 100.0%; height: 100.0%;">Teign Scullers (13th September)</div>`)[0];
+            popup_af51f2273c97afccb148258ca551a332.setContent(html_d9ccca2d95ea86354b541dc3bf980a7e);
+        
+
+        marker_b3cbfbd469da319d75e7b7fbfee3c16e.bindPopup(popup_af51f2273c97afccb148258ca551a332)
+        ;
+
+        
+    
+    
+            marker_b3cbfbd469da319d75e7b7fbfee3c16e.bindTooltip(
+                `<div>
+                     Teign Scullers
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91c85a48e8566c8aff2d3346acd5705d = L.marker(
+                [36.8969, 30.7133],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_3f4604dc41a0cd9c88725a5e930147e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a8ec24dd155bd581b1c13e70f5a9a22 = $(`<div id="html_7a8ec24dd155bd581b1c13e70f5a9a22" style="width: 100.0%; height: 100.0%;">European Beach Sprint Championships (9th-12th October)</div>`)[0];
+            popup_3f4604dc41a0cd9c88725a5e930147e7.setContent(html_7a8ec24dd155bd581b1c13e70f5a9a22);
+        
+
+        marker_91c85a48e8566c8aff2d3346acd5705d.bindPopup(popup_3f4604dc41a0cd9c88725a5e930147e7)
+        ;
+
+        
+    
+    
+            marker_91c85a48e8566c8aff2d3346acd5705d.bindTooltip(
+                `<div>
+                     European Beach Sprint Championships
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3f8d0f747806a13ee35d52471f76202 = L.marker(
+                [23.4241, 53.8478],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_db6ff2e013b521af6b0484d696e01ad0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_414702b92ad10e60cfe259d49dc13ea9 = $(`<div id="html_414702b92ad10e60cfe259d49dc13ea9" style="width: 100.0%; height: 100.0%;">World Beach Sprint Championships (25th October-2nd November)</div>`)[0];
+            popup_db6ff2e013b521af6b0484d696e01ad0.setContent(html_414702b92ad10e60cfe259d49dc13ea9);
+        
+
+        marker_f3f8d0f747806a13ee35d52471f76202.bindPopup(popup_db6ff2e013b521af6b0484d696e01ad0)
+        ;
+
+        
+    
+    
+            marker_f3f8d0f747806a13ee35d52471f76202.bindTooltip(
+                `<div>
+                     World Beach Sprint Championships
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48b2c878302ab7e219983e857a0841e4 = L.marker(
+                [50.3755, -4.1427],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_e987500d876ce3bb81248d8f9e131c32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8bf19d348d1a8e412f3036c68fcd0b96 = $(`<div id="html_8bf19d348d1a8e412f3036c68fcd0b96" style="width: 100.0%; height: 100.0%;">Mayflower #2 (27th September)</div>`)[0];
+            popup_e987500d876ce3bb81248d8f9e131c32.setContent(html_8bf19d348d1a8e412f3036c68fcd0b96);
+        
+
+        marker_48b2c878302ab7e219983e857a0841e4.bindPopup(popup_e987500d876ce3bb81248d8f9e131c32)
+        ;
+
+        
+    
+    
+            marker_48b2c878302ab7e219983e857a0841e4.bindTooltip(
+                `<div>
+                     Mayflower #2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19a895ba7feee6d4d0bb1909b340bde8 = L.marker(
+                [50.6174, -3.4066],
+                {}
+            ).addTo(map_0f7287210a459a3bd6e5d016216634b9);
+        
+    
+        var popup_aa20186a63e7c4682ad70d19ff3a17c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e8d7f8dc2822650137c8c741f0c48e9 = $(`<div id="html_3e8d7f8dc2822650137c8c741f0c48e9" style="width: 100.0%; height: 100.0%;">Exmouth #2 (1st November)</div>`)[0];
+            popup_aa20186a63e7c4682ad70d19ff3a17c8.setContent(html_3e8d7f8dc2822650137c8c741f0c48e9);
+        
+
+        marker_19a895ba7feee6d4d0bb1909b340bde8.bindPopup(popup_aa20186a63e7c4682ad70d19ff3a17c8)
+        ;
+
+        
+    
+    
+            marker_19a895ba7feee6d4d0bb1909b340bde8.bindTooltip(
+                `<div>
+                     Exmouth #2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
